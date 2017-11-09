@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element label="Publishers" max_length="40" name="x_7620_inow_publishers" type="collection"/>
+    <element label="Publishers" max_length="40" name="x_7620_inow_publishers" type="collection">
+        <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="BusinessRule" max_length="60" name="businessrule" type="string"/>
+        <element display="true" label="Name" max_length="40" name="name" type="string"/>
+        <element label="TableName" max_length="40" name="tablename" reference="sys_db_object" type="reference"/>
+    </element>
 </database>

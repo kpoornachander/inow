@@ -18,9 +18,11 @@ inow_codeGen.getBridgeBusinessRule = function(){
 	var br = new GlideRecord('x_7620_inow_code_injectors');
 	br.addQuery('name','inowBridgeBusinessRule');
 	br.query();
-	if(br.hasNext()) return br.Script;
+	if(br.hasNext()){
+		br.next();
+		return br.script;
+	} 
 	return '';
-		
 	
 };
 inow_codeGen.getBridgeScheduledJob = function(){
@@ -31,7 +33,7 @@ inow_codeGen.getBridgeScheduledJob = function(){
         <sys_created_on>2017-10-31 11:24:06</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>f5235fc7db020300abddd8c0cf961996</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>inow_codeGen</sys_name>
         <sys_package display_value="IntegrateNow" source="x_7620_inow">9d8afa05db310300abddd8c0cf9619df</sys_package>
         <sys_policy>read</sys_policy>
@@ -39,6 +41,6 @@ inow_codeGen.getBridgeScheduledJob = function(){
         <sys_scope display_value="IntegrateNow">9d8afa05db310300abddd8c0cf9619df</sys_scope>
         <sys_update_name>sys_script_include_f5235fc7db020300abddd8c0cf961996</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-11-09 16:21:26</sys_updated_on>
+        <sys_updated_on>2017-11-09 22:56:14</sys_updated_on>
     </sys_script_include>
 </record_update>

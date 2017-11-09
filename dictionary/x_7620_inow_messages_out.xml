@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Messages Out" max_length="40" name="x_7620_inow_messages_out" type="collection">
+        <element label="Exchange" max_length="60" name="exchange" type="string"/>
+        <element label="Payload" max_length="8000" name="payload" type="script"/>
+        <element label="Processed" max_length="40" name="processed" type="boolean"/>
+        <element label="Processed Date" max_length="40" name="processed_date" type="glide_date_time"/>
+        <element label="RoutingKey" max_length="60" name="routingkey" type="string"/>
+        <element display="true" label="TableName" max_length="60" name="tablename" type="string"/>
+    </element>
+</database>
