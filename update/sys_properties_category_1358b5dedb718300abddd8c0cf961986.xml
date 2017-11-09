@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_properties_category">
+    <sys_properties_category action="INSERT_OR_UPDATE">
+        <name>IntegrateNow</name>
+        <sys_class_name>sys_properties_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-10-16 10:37:21</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>1358b5dedb718300abddd8c0cf961986</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>IntegrateNow</sys_name>
+        <sys_package display_value="IntegrateNow" source="x_7620_inow">9d8afa05db310300abddd8c0cf9619df</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="IntegrateNow">9d8afa05db310300abddd8c0cf9619df</sys_scope>
+        <sys_update_name>sys_properties_category_1358b5dedb718300abddd8c0cf961986</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-10-16 11:16:05</sys_updated_on>
+        <title><![CDATA[<p><strong>IntegrateNow  Bridge Properties</strong></p>]]></title>
+    </sys_properties_category>
+    <sys_translated_text action="delete_multiple" query="documentkey=1358b5dedb718300abddd8c0cf961986"/>
+</record_update>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Code Injectors" max_length="40" name="x_7620_inow_code_injectors" type="collection">
+        <element label="Name" max_length="50" name="name" type="string"/>
+        <element display="true" label="Script" max_length="10000" name="script" type="script"/>
+        <element choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element label="Business Rule" value="1"/>
+                <element label="Scheduled Job" value="2"/>
+            </choice>
+        </element>
+    </element>
+</database>

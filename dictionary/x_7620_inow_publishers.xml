@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Publishers" max_length="40" name="x_7620_inow_publishers" type="collection"/>
+</database>
